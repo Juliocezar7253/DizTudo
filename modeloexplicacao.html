@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<title> Questionário </title>
+<link rel="stylesheet" type="text/css" href="css/styleindex.css">
+<link rel="stylesheet" type="text/css" href="css/styleheader.css">
+<link rel="stylesheet" type="text/css" href="css/styleexplicacao.css">
+<link rel="stylesheet" type="text/css" href="css/stylefooter.css">
+
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/estilologin.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' id='wp-block-library-css'  href='https://mdbootstrap.com/wp-includes/css/dist/block-library/style.min.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-style-css'  href='https://mdbootstrap.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=2.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://mdbootstrap.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.4' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='wsl-widget-css'  href='https://mdbootstrap.com/wp-content/plugins/wordpress-social-login/assets/css/style.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='compiled.css-css'  href='https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/compiled-4.8.10.min.css?ver=4.8.10' type='text/css' media='all' />
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+</head>
+<body style="background-color: #F9ECD1">
+<header style="position: relative">
+<table>
+<tr>
+<td width="60%" style="vertical-align:top"><a href="index.html" class="logodrop"><img src="images/Logo.png" width="200px"></a></td>
+<td><a href="Redacao.html"><button class="btndrop"><font face="Sans" class="txtshadow" size="4">Redação</font></button></a></td>
+<td><a href="Gramatica.html"><button class="btndrop"><font face="Sans" class="txtshadow" size="4">Gramática</font></button></a></td>
+<td><a href="Atualidades.html"><button class="btndrop"><font face="Sans" class="txtshadow" size="4">Atualidades</font></button></a></td>
+<td style="vertical-align:middle">
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  
+<!-- Modal -->
+<div class="modal fade" id="elegantModalForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <!--Content-->
+    <div class="modal-content form-elegant">
+      <!--Header-->
+      <div class="modal-header text-center">
+        <h3 class="modal-title w-100 dark-grey-text font-weight-bold my-3" id="myModalLabel"><strong>Login</strong></h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <!--Body-->
+      <div class="modal-body mx-4">
+        <!--Body-->
+        <form name="login" method="" action="">
+        <div class="md-form mb-5">
+          <input type="email" id="Form-email1" class="form-control validate" placeholder="E-mail">
+        </div>
+
+        <div class="md-form pb-3">
+          <input type="password" id="Form-pass1" class="form-control validate" placeholder="Senha">
+          <p class="font-small blue-text d-flex justify-content-end"><a href="#" class="blue-text ml-1">
+              Esqueceu sua Senha?</a></p>
+        </div>
+
+        <div class="text-center mb-3">
+          <button class="btn degrade btn-block btn-rounded z-depth-1a">Login</button>
+        </div>
+        </form>
+      </div>
+      <!--Footer-->
+      <div class="modal-footer mx-5 pt-3 mb-1">
+        <p class="font-small grey-text d-flex justify-content-end">Não possui uma conta? <a href="cadastroaluno.html" class="blue-text ml-1" data-toggle="modal" data-target="#elegantModalForm2" data-dismiss="modal" aria-label="Close">
+            Cadastre-se</a></p>
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!-- Modal -->
+<!-- Modal -->
+<div class="modal fade" id="elegantModalForm2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true" width="100%">
+  <div class="modal-dialog" role="document" style="max-width: 600px">
+    <!--Content-->
+    <div class="modal-content form-elegant">
+      <!--Header-->
+      <div class="modal-header text-center">
+        <h3 class="modal-title w-100 dark-grey-text font-weight-bold my-3" id="myModalLabel"><strong>Cadastro</strong></h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <!--Body-->
+      <div class="modal-body mx-4">
+        <!--Body-->
+        <form name="cadastro" method="" action="">
+        <table style="table-layout: fixed; border-collapse: collapse;" align="center" width="100%">
+        <td style="word-wrap: break-word; padding: 0; margin: 0;" width="70%">
+        <div class="md-form mb-5" style="margin-top: 0; margin-bottom: 0">
+          <input type="text" id="Form-email1" class="form-control validate" placeholder="Nome">
+        </div>
+      </td>
+      <td>
+      <div class="md-form mb-5" style="margin-top: 0; margin-bottom: 0">
+          <input type="date" id="Form-email1" class="form-control validate">
+        </div>
+      </td>
+      <tr>
+      <td colspan="2">
+        <div class="md-form mb-5" style="margin-top: 0; margin-bottom: 0">
+          <input type="tel" id="Form-email1" class="form-control validate" placeholder="Celular">
+        </div>
+      </td>
+      </tr>
+      <tr>
+      <td colspan="2">
+        <div class="md-form mb-5" style="margin-top: 0; margin-bottom: 0">
+          <input type="email" id="Form-email1" class="form-control validate" placeholder="E-mail">
+        </div>
+      </td>
+    </tr>
+      <tr>
+      <td colspan="2">
+        <div class="md-form pb-3" style="margin-top: 0; margin-bottom: 0">
+          <input type="password" id="Form-pass1" class="form-control validate" placeholder="Senha">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <div class="md-form pb-3" style="margin-top: 0; margin-bottom: 0">
+          <input type="password" id="Form-pass1" class="form-control validate" placeholder="Confirmar Senha">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <div class="text-center mb-3">
+          <button class="btn degrade btn-block btn-rounded z-depth-1a">Cadastre-se</button>
+        </div>
+      </td>
+    </tr>
+      </table>
+      </form>
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!-- Modal -->
+<a href="" data-toggle="modal" data-target="#elegantModalForm"><button class="btncad"><font face="Sans" size="4">Login/Cadastro</font></button></a>
+</td>
+</tr>
+</table>
+</header>
+<center>
+<table class="tablecontent" width="90%">
+<td width="80%">
+  <div class="content">
+    <h1><font face="Sans" color="#C0B283">TÍTULO</font></h1>
+    <hr>
+    <font face="" color="lightgray">Pequena descrição do tópico (acho que seria legal colocar a explicação que a Rayra usou nas páginas dela)</font>
+    <br><br><br>
+    <p align="justify">
+    <font face="" color="black" >
+      &nbsp&nbsp&nbspLorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur felis sapien, scelerisque eu vulputate tincidunt, sagittis at risus. Sed tincidunt non leo convallis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ac sem magna. Maecenas non augue quam. Fusce lobortis ullamcorper sapien. Ut interdum euismod quam, at condimentum sem blandit vitae. Phasellus ipsum felis, sodales nec ipsum a, cursus eleifend lectus. Vivamus mollis tincidunt sapien, id sodales purus commodo cursus. Aliquam tristique egestas arcu, id molestie metus suscipit nec. Cras elementum posuere justo sit amet vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut venenatis consectetur sagittis. Proin efficitur tellus velit, vel vehicula elit cursus a. Cras quis finibus lorem.
+    </font>
+  </p>
+  <br>
+  <ul class="ul-sub">
+    <!-- Os textos estão aqui só de placeholder, só pra ver como que fica na página, é só substituir eles pelas explicações--> 
+    <li>
+      <span id="sub1">
+      <h2><font face="Sans" color="#DCD0C0">Subtópico1</font></h2>
+      </span><br>
+      <p align="justify">
+      <font color="gray">
+      &nbsp&nbsp&nbspCras vel lacinia arcu. Curabitur turpis felis, placerat at posuere a, ultrices vitae quam. Cras lacus magna, pharetra sed pellentesque vitae, ultrices ut tortor. Ut eget nisi neque. Nulla leo eros, dictum a tempor non, cursus at nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla molestie blandit nulla nec porta. Suspendisse magna arcu, placerat sit amet lectus at, aliquam convallis arcu. Proin sed augue feugiat, laoreet urna quis, hendrerit tortor. Curabitur a est nec elit venenatis ultrices id sed odio. Donec feugiat faucibus nisl, a finibus odio sodales in. Sed lacus justo, egestas tincidunt imperdiet sagittis, bibendum ut metus. Praesent eros mi, condimentum vitae dolor vitae, ultricies pulvinar nibh. Nulla fringilla vehicula vehicula.
+      </font>
+      </p>
+    </li>
+
+    <!-- Se precisar acrescentar mais subtópicos é só copiar daqui... -->
+    <br>
+    <li>
+      <span id="sub2">
+      <h2><font face="Sans" color="#DCD0C0">Subtópico2</font></h2>
+      </span><br>
+      <p align="justify">
+      <font color="gray">
+      &nbsp&nbsp&nbspCras vel lacinia arcu. Curabitur turpis felis, placerat at posuere a, ultrices vitae quam. Cras lacus magna, pharetra sed pellentesque vitae, ultrices ut tortor. Ut eget nisi neque. Nulla leo eros, dictum a tempor non, cursus at nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla molestie blandit nulla nec porta. Suspendisse magna arcu, placerat sit amet lectus at, aliquam convallis arcu. Proin sed augue feugiat, laoreet urna quis, hendrerit tortor. Curabitur a est nec elit venenatis ultrices id sed odio. Donec feugiat faucibus nisl, a finibus odio sodales in. Sed lacus justo, egestas tincidunt imperdiet sagittis, bibendum ut metus. Praesent eros mi, condimentum vitae dolor vitae, ultricies pulvinar nibh. Nulla fringilla vehicula vehicula.
+      </font>
+      </p>
+    </li>
+    <!-- ...Até aqui -->
+
+    <br>
+    <li>
+      <span id="sub3">
+      <h2><font face="Sans" color="#DCD0C0">Subtópico3</font></h2>
+      </span><br>
+      <p align="justify">
+      <font color="gray">
+      &nbsp&nbsp&nbspCras vel lacinia arcu. Curabitur turpis felis, placerat at posuere a, ultrices vitae quam. Cras lacus magna, pharetra sed pellentesque vitae, ultrices ut tortor. Ut eget nisi neque. Nulla leo eros, dictum a tempor non, cursus at nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla molestie blandit nulla nec porta. Suspendisse magna arcu, placerat sit amet lectus at, aliquam convallis arcu. Proin sed augue feugiat, laoreet urna quis, hendrerit tortor. Curabitur a est nec elit venenatis ultrices id sed odio. Donec feugiat faucibus nisl, a finibus odio sodales in. Sed lacus justo, egestas tincidunt imperdiet sagittis, bibendum ut metus. Praesent eros mi, condimentum vitae dolor vitae, ultricies pulvinar nibh. Nulla fringilla vehicula vehicula.
+      </font>
+      </p>
+    </li>
+  </div>
+</td>
+<td width="20%" style="vertical-align: top">
+  <!-- Essa parte é como se fosse um atalho pra pessoa ir de um subtópico pra outro sem precisar ficar usando o scroll do mouse -->
+  <div class="subtopicos">
+    <div>
+    <h3>Título</h3>
+    <ul class="sub-goto">
+      <a href="#sub1"><li>Subtópico1</li></a>
+      <a href="#sub2"><li>Subtópico2</li></a>
+      <a href="#sub3"><li>Subtópico3</li></a>
+    </ul>
+    </div>
+  </div>
+</td>
+</table>
+</center>
+
+<!-- FOOTER/RODAPÉ -->
+    <footer class="rodape" style="margin-top: 0px !important; background-image: url(images/footerbackground.png)">
+      <table align="center" style="border-collapse: separate !important">
+        <ul>
+          <td>
+            <li class="miniMenu"><a href="menu_gramatica.html">Gramática</a></li>
+          </td>
+          <td>
+            <li class="miniMenu"><a href="">Atualidades</a></li>
+          </td>
+          <td>
+            <li class="miniMenu"><a href="menu_redacao.html">Redação</a></li>
+          </td>
+        </ul>
+        </table>
+        <table class="nathalia">
+        <td width="20%" rowspan="2" align="center">
+          <a href="index.html"><img src="images/Logo.png" width="400px"></a>
+        </td>
+        <td width="53%"></td>
+        <td width="27%">
+          <p align="center">Para entrar em contato conosco:</p>
+          <p align="center" style="font-weight: bold;">excuteejs@gmail.com
+            <hr id="linha">
+          </p>
+        </td>
+      </table>
+</footer>
+</body>
+</html>

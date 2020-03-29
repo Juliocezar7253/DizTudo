@@ -1,0 +1,152 @@
+.body {
+     background-color: #F9ECD1;
+     }
+        h1{
+		font-family: Arial;
+		font-size:40px;
+		color: #274B58;
+		text-shadow: 1px 1px 2px black; 
+		
+	      }
+		      h2{
+		font-family: Arial;
+		font-size:20px;
+		color: #274B58;
+		text-shadow: 2px 2px 2px black; 
+		}
+	    p {
+		 font-color: #000000;; 
+		}
+		ul {
+      
+		color: #000000;
+		align: center;
+		}
+	/* Formatação Menu Principal */
+@font-face {
+  font-family: "Sans";
+  src: url(../fonts/JosefinSansRegular.ttf) format("truetype");
+  font-size:3;
+ }
+ 
+.code{
+  font-family: "Sans";
+  font-size: 3;
+  }
+   /*Div Interface */
+   div#interface  {
+   width: 600px;
+   background-color: #FFFFFF;
+   margin: -50px auto 0px auto;
+  padding: 10px ;
+}
+header#cabecalho {
+border-bottom: 1px #000000 solid;
+}
+footer#rodape {
+clear: both;
+border-top: 1px #000000 solid;
+}
+footer#rodape p {
+text-align: center;
+}
+p#class{ 
+  font-family: Open Sans;
+     font-size: 15px;
+     text-align:left;
+}
+.containercad {
+	position: relative;
+	background-color: white;
+	box-shadow: 2px 2px 20px rgba(100,100,100,0.5);
+	width: 75%;
+	align-self: center;
+	margin: 0 auto;
+}
+
+fieldset{
+	text-align: center;
+	width: 550px;
+}
+.rsrs {
+	border-radius: 15px;
+	margin: 5px;
+	padding: 8px;
+	border: solid 2px;
+	text-align: center;
+	outline: none;
+	transition: 0.25s;
+	width: 300px;
+	background: white;
+	border-color: #274B58;
+
+}
+.rsrs:focus {
+	border-color: #6FB1B4;
+}
+input[type = submit]{
+	border-radius: 15px;
+	margin: 5px;
+	padding: 5px;
+	border: solid 2px;
+	text-align: center;
+	outline: none;
+	transition: 0.25s;
+	width: 250px;
+	background: white;
+	border-color: #274B58;
+}
+input[type = submit]:hover, input:focus[type = submit]{
+	width: 300px;
+	font-style: bold;
+	transition: 0.25s;
+	background:#274B58;
+	color: white;
+	
+}
+
+input[type = date]{
+	border-radius: 15px;
+	margin: 5px;
+	padding: 6px;
+	padding-left: 6.81px;
+	padding-right: 6.81px;
+	border: solid 2px;
+	text-align: center;
+	outline: none;
+	transition: 0.25s;
+	width: 300px;
+	background: white;
+	border-color: #274B58;
+	color: grey;
+
+	} 
+	.rsrs::-webkit-input-placeholder{
+		text-align: justify;
+		padding: 73px;
+		
+	}
+
+	input[type = number]{
+	border-radius: 15px;
+	margin: 5px;
+	padding: 6px;
+	border: solid 2px;
+	text-align: center;
+	outline: none;
+	transition: 0.25s;
+	width: 300px;
+	background: white;
+	border-color: #274B58;
+}
+input:focus[type = date], input:focus[type = number]{
+	border-color: #6FB1B4;
+}
+.tab1 td{
+	text-align: justify;
+	padding-left: 50px;
+}
+
+#td1{
+	text-align: center;
+}

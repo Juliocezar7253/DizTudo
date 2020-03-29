@@ -1,0 +1,43 @@
+.rodape {
+    position: relative;
+    background-image: url(./img/footerbackground.png);
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+    padding: 2% 1%;
+    z-index: 5;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .miniMenu{
+	list-style-type: disc;
+	font-size: 28px;
+	margin-left: 80px;
+}
+.miniMenu a{
+	font-size: 28px;
+	font-family: Sans;
+	text-decoration: none;
+	color: black;
+	margin-left: none;
+
+}
+.miniMenu:hover{
+	color: #DCD0C0;
+	transition: .2s;
+	cursor: pointer;
+}
+
+.miniMenu:hover>a{
+	color: #DCD0C0;
+	transition: .2s;
+	cursor: pointer;
+}
+.nathalia p{
+	font-size: 24px;
+	font-family: Sans;
+	margin-right: 20px;
+}
+#linha{
+	width: 80%;
+	border: 2px solid #F2D53F;
+}
+/*http://redvelvetteste.000webhostapp.com/index.html*/

@@ -1,0 +1,109 @@
+body {	
+	overflow: none;
+	margin: 0% 0% 0% 0%;
+	background-size: 100%;
+	padding: 0%;
+ }
+
+@font-face {
+  font-family: "Sans";
+  src: url(../fonts/JosefinSansRegular.ttf) format("truetype");
+  font-size:3;
+ }
+ 
+.code{
+  font-family: "Sans";
+  font-size: 3;
+  }
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 100px;
+}
+
+.logo {
+  transform: scale(1);
+  opacity: 1;
+  width: 60%;
+  transition-duration: .2s;
+}
+
+#atualidades:hover+.logo {
+  opacity: 0.2;
+  transform: scale(1.1);
+  transition-duration: .2s;
+}
+
+#atualidades:hover+.logo+.middle {
+  opacity: 1;
+}
+
+#gramatica:hover+.logo {
+  opacity: 0.2;
+  transform: scale(1.1);
+  transition-duration: .2s;
+}
+
+#gramatica:hover+.logo+.middle {
+  opacity: 1;
+}
+
+#redacao:hover+.logo {
+  opacity: 0.2;
+  transform: scale(1.1);
+  transition-duration: .2s;
+}
+
+#redacao:hover+.logo+.middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: none;
+  color: black;
+  filter: drop-shadow(1px 1px 5px black);
+  font-size: 25px;
+  font-family: Sans;
+  padding: 0px;
+  border-radius: 100px;
+  pointer-events: none;
+}
+
+.container {
+  position: relative;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  border-radius: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  pointer-events: none;
+}
+
+.topicos {
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 100%;
+  padding: 3%;
+  opacity: 1;
+}
+
+
+.sec1 {
+  background-color: #DCD0C0;
+  width: 100%;
+  height: 100%;
+  padding: 3%;
+  opacity: 1;
+}

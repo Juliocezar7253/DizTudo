@@ -1,0 +1,68 @@
+header {
+	position: absolute;
+	width: 100%;
+	padding: 0% 2% 0% 0%;
+}
+
+.btncad {
+	color: black;
+	background-color: white;
+	border: none;
+	border-radius: 100px;
+	padding: 10px 50px;
+	box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+	transition: .2s;
+}
+
+.btncad:hover {
+	transform: scale(1.1);
+	transition: .2s;
+	box-shadow: 2px 2px 20px rgba(242,213,63,0.5);
+}
+
+.headerlink {
+	text-decoration: none;
+	color: black;
+	padding: 7%;
+	transition-duration: .5s;
+	border-radius: 30px;
+}
+
+.headerlink:hover {
+	background-color: #BDE5CE;
+	color: white;
+	transition-duration: .5s;
+}
+
+.log {
+	text-decoration: none;
+	color: #274B58;
+}
+
+.log:hover {
+	text-decoration: none;
+	color: #3A727F;
+}
+
+.ball {
+	background-color: #3A727F;
+	width: 10px;
+	height: 10px;
+	border-radius: 20px;
+	display: block;
+}
+
+.btndrop {
+	width: 100%;
+	color: white;
+	padding: 20px 45px;
+	border: none;
+	background-color: rgba(0,0,0,0.0);
+	border-top: 2px solid rgba(0,0,0,0.3);
+	transition: .2s;
+}
+
+.btndrop:hover {
+	background-color: rgba(242,213,63,0.3);
+	transition: .2s;
+}

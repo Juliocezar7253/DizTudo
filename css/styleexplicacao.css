@@ -1,0 +1,63 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.btndrop {
+	color: black !important;
+}
+
+.content {
+	background-color: white;
+	width: 100%;
+	padding: 4%;
+}
+
+.subtopicos {
+	position: sticky;
+	top: 0;
+	color: white;
+	background-color: #373737;
+	vertical-align: top !important;
+}
+
+.subtopicos div {
+	padding: 3%;
+}
+
+.sub-goto a li {
+	color: lightgray;
+	transition-duration: .2s;
+	line-height: 50px;
+}
+
+.sub-goto a {
+	text-decoration: none;
+	color: lightgray;
+}
+
+.sub-goto a li:hover {
+	color: white;
+	transition-duration: .2s;
+}
+
+.tablecontent {
+	margin-top: 5%;
+}
+
+.ul-sub li {
+	color: #DCD0C0;
+	vertical-align: middle;
+}
+
+.ul-sub li span {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+hr {
+	display: block;
+	border-width: 3px !important;
+	border-style: inset;
+	border-color: #C0B283;
+	background-color: #C0B283;
+}

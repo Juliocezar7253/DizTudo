@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/styleindex.css">
+<link rel="stylesheet" type="text/css" href="css/styleheader.css">
+<link rel="stylesheet" type="text/css" href="css/stylefooter.css">
+
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/estilologin.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' id='wp-block-library-css'  href='https://mdbootstrap.com/wp-includes/css/dist/block-library/style.min.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-style-css'  href='https://mdbootstrap.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=2.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://mdbootstrap.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.4' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='wsl-widget-css'  href='https://mdbootstrap.com/wp-content/plugins/wordpress-social-login/assets/css/style.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='compiled.css-css'  href='https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/compiled-4.8.10.min.css?ver=4.8.10' type='text/css' media='all' />
+</head>
+<style>
+.img2-resp {
+	display: block;
+	max-width: 100%;
+	height: auto;
+  z-index: 1;
+  }
+</style>
+<body>
+<header>
+<table>
+<tr>
+<td width="60%" style="vertical-align:top"><a href="index2.html" class="logodrop"><img src="images/Logo.png" width="200px"></a></td>
+<td><a href="Redacao.html"><button class="btndrop"><font face="Sans" class="txtshadow" size="4">Redação</font></button></a></td>
+<td><a href="Gramatica.html"><button class="btndrop"><font face="Sans" class="txtshadow" size="4">Gramática</font></button></a></td>
+<td><a href="Atualidades.html"><button class="btndrop"><font face="Sans" class="txtshadow" size="4">Atualidades</font></button></a></td>
+<td style="vertical-align:middle">
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  
+<!-- Modal -->
+<div class="modal fade" id="elegantModalForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <!--Content-->
+    <div class="modal-content form-elegant">
+      <!--Header-->
+      <div class="modal-header text-center">
+        <h3 class="modal-title w-100 dark-grey-text font-weight-bold my-3" id="myModalLabel"><strong>Login</strong></h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <!--Body-->
+      <div class="modal-body mx-4">
+        <!--Body-->
+        <form name="login" method="POST" action="controllers/lgn.php">
+        <div class="md-form mb-5">
+          <input type="email" id="Form-email1" class="form-control validate" placeholder="E-mail" name="email">
+        </div>
+
+        <div class="md-form pb-3">
+          <input type="password" id="Form-pass1" class="form-control validate" placeholder="Senha" name="senha">
+          <p class="font-small blue-text d-flex justify-content-end"><a href="#" class="blue-text ml-1">
+              Esqueceu sua Senha?</a></p>
+        </div>
+
+        <div class="text-center mb-3">
+          <button type="submit" class="btn degrade btn-block btn-rounded z-depth-1a">Login</button>
+        </div> 
+      </div>
+    </form>
+      <!--Footer-->
+      <div class="modal-footer mx-5 pt-3 mb-1">
+        <p class="font-small grey-text d-flex justify-content-end">Não possui uma conta? <a href="cadastroaluno.html" class="blue-text ml-1" data-toggle="modal" data-target="#elegantModalForm2" data-dismiss="modal" aria-label="Close">
+            Cadastre-se</a></p>
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!-- Modal -->
+<!-- Modal -->
+<div class="modal fade" id="elegantModalForm2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true" width="100%">
+  <div class="modal-dialog" role="document" style="max-width: 600px">
+    <!--Content-->
+    <div class="modal-content form-elegant">
+      <!--Header-->
+      <div class="modal-header text-center">
+        <h3 class="modal-title w-100 dark-grey-text font-weight-bold my-3" id="myModalLabel"><strong>Cadastro</strong></h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <!--Body-->
+      <div class="modal-body mx-4">
+        <!--Body-->
+        <form name="cadastro" method="POST" action="controllers/cadastro.php">
+        <table style="table-layout: fixed; border-collapse: collapse;" align="center" width="100%">
+        <td style="word-wrap: break-word; padding: 0; margin: 0;" width="70%">
+        <div class="md-form mb-5" style="margin-top: 0; margin-bottom: 0">
+          <input type="text" id="Form-email1" class="form-control validate" placeholder="Nome" name="nome">
+        </div>
+      </td>
+      <td>
+      <div class="md-form mb-5" style="margin-top: 0; margin-bottom: 0">
+          <input type="date" id="Form-email1" class="form-control validate" name="data">
+        </div>
+      </td>
+      <tr>
+      <td colspan="2">
+        <div class="md-form mb-5" style="margin-top: 0; margin-bottom: 0">
+          <input type="tel" id="Form-email1" class="form-control validate" placeholder="Telefone/ Celular" name="telefone">
+        </div>
+      </td>
+      </tr>
+      <tr>
+      <td colspan="2">
+        <div class="md-form mb-5" style="margin-top: 0; margin-bottom: 0">
+          <input type="email" id="Form-email1" class="form-control validate" placeholder="E-mail" name="email">
+        </div>
+      </td>
+    </tr>
+      <tr>
+      <td colspan="2">
+        <div class="md-form pb-3" style="margin-top: 0; margin-bottom: 0">
+          <input type="password" id="Form-pass1" class="form-control validate" placeholder="Senha" name="senha">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <div class="md-form pb-3" style="margin-top: 0; margin-bottom: 0">
+          <input type="password" id="Form-pass1" class="form-control validate" placeholder="Confirmar Senha">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <div class="text-center mb-3">
+          <button class="btn degrade btn-block btn-rounded z-depth-1a" type="submit">Cadastre-se</button>
+        </div>
+      </td>
+    </tr>
+      </table>
+      </form>
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!-- Modal -->
+<a href="" data-toggle="modal" data-target="#elegantModalForm"><button class="btncad"><font face="Sans" size="4">Login/Cadastro</font></button></a>
+</td>
+</tr>
+</table>
+</header>
+<img src="images/ImgPagIni.png" class="img2-resp">
+<div class="topicos">
+<br><br>
+<h1 align="center"><font face="Sans"><b>Tópicos</b></font></h1><br>
+<table align="center" width="100%">
+<td width="33.3%" align="center" style="padding: 3%">
+<div class="container">
+<map name="map1">
+<area shape="circle" coords="502,499,498" href="" id="redacao">
+<img src="images/RedacaoLogo.png" class="logo" usemap="#map1">
+<div class="middle">
+<div class="text">Redação</div>
+</div>
+</map>
+</div>
+</td>
+<td width="33.3%" align="center" style="padding: 3%">
+<div class="container">
+<map name="map2">
+<area shape="circle" coords="502,499,498" href="" id="gramatica">
+<img src="images/GramLogo.png" class="logo" usemap="#map2">
+<div class="middle">
+<div class="text">Gramática</div>
+</div>
+</map>
+</div>
+</td>
+<td width="33.3%" align="center" style="padding: 3%">
+<div class="container">
+<map name="map3">
+<area shape="circle" coords="502,499,498" href="" id="atualidades">
+<img src="images/AtualLogo.png" class="logo" usemap="#map3">
+<div class="middle">
+<div class="text">Atualidades</div>
+</div>
+</map>
+</div>
+</td>
+</table>
+</div>
+<div class="sec1">
+<h1 align="center"><font face="Sans"><b>Sobre Nós</b></font></h1><br>
+<p align="center"><font face="Sans" size="5">O Diztudo foi desenvolvido em Agosto/2019 por estudantes do 2º ETIM de Informática da ETEC Jorge Street, com apenas um objetivo: ajudar os estudantes para o ENEM na matéria de Língua Portuguesa, talvez a mais difícil na área de humanas no ENEM</font></p>
+<br><br>
+<p align="center"><font face="Sans" size="5"><i>Diztudo. Por estudantes para estudantes</i></font></p>
+</div>
+    <footer class="rodape" style="background-image: url(images/footerbackground.png)">
+      <table align="center" style="border-collapse: separate !important">
+        <ul>
+          <td>
+            <li class="miniMenu"><a href="menu_gramatica.html">Gramática</a></li>
+          </td>
+          <td>
+            <li class="miniMenu"><a href="">Atualidades</a></li>
+          </td>
+          <td>
+            <li class="miniMenu"><a href="menu_redacao.html">Redação</a></li>
+          </td>
+        </ul>
+        </table>
+        <table class="nathalia">
+        <td  rowspan="2" align="center">
+          <a href="index.html"><img src="images/Logo.png" width="400px"></a>
+        </td>
+        <td width="800px"></td>
+        <td>
+          <p>Para entrar em contato conosco:</p>
+          <p align="center" style="font-weight: bold;">excuteejs@gmail.com
+            <hr id="linha">
+          </p>
+        </td>
+      </table>
+</footer>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="image-map-resizer-master/js/imageMapResizer.min.js"></script>
+  <script type="text/javascript">
+
+    $('map').imageMapResize();
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.box{
+  vertical-align: middle;
+  width: 450px;
+  height: 650px;
+  background-color: white ;
+  padding: 5px;
+  -webkit-box-shadow: 3px 7px 5px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow:    3px 7px 5px rgba(50, 50, 50, 0.77);
+  box-shadow:         3px 7px 5px rgba(50, 50, 50, 0.77);
+  border-radius: 12px;
+}

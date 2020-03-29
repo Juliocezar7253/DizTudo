@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<title> Questionário </title>
+<link rel="stylesheet" type="text/css" href="css/styleindex.css">
+<link rel="stylesheet" type="text/css" href="css/styleheader.css">
+<link rel="stylesheet" type="text/css" href="css/stylequestion.css">
+<link rel="stylesheet" type="text/css" href="css/stylefooter.css">
+
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/estilologin.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' id='wp-block-library-css'  href='https://mdbootstrap.com/wp-includes/css/dist/block-library/style.min.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-style-css'  href='https://mdbootstrap.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=2.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://mdbootstrap.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.4' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='wsl-widget-css'  href='https://mdbootstrap.com/wp-content/plugins/wordpress-social-login/assets/css/style.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='compiled.css-css'  href='https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/compiled-4.8.10.min.css?ver=4.8.10' type='text/css' media='all' />
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+</head>
+<body style="background-color: #F9ECD1">
+<header style="position: relative">
+<table>
+<tr>
+<td width="60%" style="vertical-align:top"><a href="index2.php" class="logodrop"><img src="images/Logo.png" width="200px"></a></td>
+<td><a href="Ranking.php"><button class="btndrop"><font face="Sans" class="txtshadow" size="4">Ranking</font></button></a></td>
+<td><a href="menu_redacao.php"><button class="btndrop"><font face="Sans" class="txtshadow" size="4">Redação</font></button></a></td>
+<td><a href="menu_gramatica.php"><button class="btndrop"><font face="Sans" class="txtshadow" size="4">Gramática</font></button></a></td>
+<td><a href="menu_atualidades.php"><button class="btndrop"><font face="Sans" class="txtshadow" size="4">Atualidades</font></button></a></td>
+<td style="vertical-align:middle">
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<a href="Perfil/perfil.php" data-toggle="modal" data-target="#elegantModalForm"><button class="btncad"><font face="Sans" size="4">Meu Perfil</font></button></a>
+</td>
+</tr>
+</table>
+</header>
+<br><br><br>
+<center>
+<form name="questionario" method="post" action="controllers/verificar_questoes.php">
+
+  <fieldset id="question1">
+      <fieldset class="title">
+          <legend style="padding: 0px 5px 0px 5px; width: 250px" align="center">Questionário</legend>
+          </fieldset>
+
+  <!-- Questão 1 -->
+
+
+    <br>
+  	<p align="left">
+  	<i>1. (FMPA-MG) Identifique a alternativa em que o verbo destacado não é de ligação:</i><br><br>
+  	<input id="q1alta" type="radio" name="q1" value="q1a1"> A criança <b>estava</b> com fome.<br>
+  	<input id="q1altb" type="radio" name="q1" value="q1a2"> Pedro <b>parece</b> adoentado.<br>
+  	<input id="q1altc" type="radio" name="q1" value="q1a3"> Ele <b>tem andado</b> confuso.<br>
+  	<input id="q1altd" type="radio" name="q1" value="q1a4"> <b>Ficou</b> em casa o dia todo.<br>
+  	<input id="q1alte" type="radio" name="q1" value="q1a5"> A jovem <b>continua</b> sonhadora.<br><br><br>
+
+  	</p>
+
+
+  <!-- Questão 2 -->
+
+
+    <br>
+  	<p align="left">
+  	<i>2. (Alerj/Fesp) Das alternativas abaixo, a que apresenta o particípio irregular dos verbos expressar, tingir e enxugar é:</i><br><br>
+  	<input id="q2alta" type="radio" name="q2" value="q2a1"> expressado, tinto e enxugado.<br>
+  	<input id="q2altb" type="radio" name="q2" value="q2a2"> expresso, tingido e enxugado.<br>
+  	<input id="q2altc" type="radio" name="q2" value="q2a3"> expressado, tingido e enxuto.<br>
+  	<input id="q2altd" type="radio" name="q2" value="q2a4"> expresso, tinto e enxugado.<br>
+  	<input id="q2alte" type="radio" name="q2" value="q2a5"> expresso, tinto e enxuto.<br><br><br>
+
+  	</p>
+
+
+  <!-- Questão 3 -->
+
+
+
+    <br>
+    <p align="left">
+    <i>3. Na oração “Esse lixo enfeia a rua”, qual é o sujeito e a sua classificação?</i><br><br>
+    <input id="q3alta" type="radio" name="q3" value="q3a1"> Rua/Sujeito composto.<br>
+    <input id="q3altb" type="radio" name="q3" value="q3a2"> Rua/Sujeito simples.<br>
+    <input id="q3altc" type="radio" name="q3" value="q3a3"> Lixo/Sujeito simples.<br>
+    <input id="q3altd" type="radio" name="q3" value="q3a4"> Esse/Sujeito indeterminado.<br>
+    <input id="q3alte" type="radio" name="q3" value="q3a5"> Enfeia/Sujeito elíptico.<br><br><br>
+
+    </p>
+
+
+  <!-- Questão 4 -->
+
+
+    <br>
+    <p align="left">
+    <i>4. (Fuvest – SP) “Diga ---- elas que estejam daqui----pouco-------porta da biblioteca”.</i><br><br>
+    <input id="q4alta" type="radio" name="q4" value="q4a1"> à, há, a.<br>
+    <input id="q4altb" type="radio" name="q4" value="q4a2"> a, há, à.<br>
+    <input id="q4altc" type="radio" name="q4" value="q4a3"> a, a, à.<br>
+    <input id="q4altd" type="radio" name="q4" value="q4a4"> à, a, a.<br>
+    <input id="q4alte" type="radio" name="q4" value="q4a5"> a, a, a.<br><br><br>
+
+    </p>
+
+
+  <!-- Questão 5 -->
+
+
+    <br>
+    <p align="left">
+    <i>5. (ITA –SP) Assinale a alternativa correta:</i><br><br>
+    <input id="q5alta" type="radio" name="q5" value="q5a1"> Há muitas pessoas com que não nos simpatizamos.<br>
+    <input id="q5altb" type="radio" name="q5" value="q5a2"> Há muitas pessoas com quem não simpatizamos.<br>
+    <input id="q5altc" type="radio" name="q5" value="q5a3"> Há muitas pessoas com quem não nos simpatizamos.<br>
+    <input id="q5altd" type="radio" name="q5" value="q5a4"> Há muitas pessoas com quem não simpatizamo-nos.<br>
+    <input id="q5alte" type="radio" name="q5" value="q5a5"> Nenhuma das alternativas.<br><br><br>
+
+    </p>
+
+
+  <!-- Questão 6 -->
+
+
+    <br>
+    <p align="left">
+    <i>6. Em qual alternativa o verbo “assistir” é transitivo indireto e possui o sentido de “caber razão a alguém”?</i><br><br>
+    <input id="q6alta" type="radio" name="q6" value="q6a1"> Não assistimos ao espetáculo da noite.<br>
+    <input id="q6altb" type="radio" name="q6" value="q6a2"> Todos os dias assistimos às aulas.<br>
+    <input id="q6altc" type="radio" name="q6" value="q6a3"> A ONG assistiu aos desabrigados.<br>
+    <input id="q6altd" type="radio" name="q6" value="q6a4"> Assiste à mulher o direito à licença-maternidade.<br>
+    <input id="q6alte" type="radio" name="q6" value="q6a5"> Vá assistir ao doente no corredor!<br><br><br>
+
+    </p>
+
+
+  <!-- Questão 7 -->
+
+    <br>
+    <p align="left">
+    <i>7. (FMPA-MG) Assinale o item em que a palavra destacada está incorretamente aplicada:</i><br><br>
+    <input id="q7alta" type="radio" name="q7" value="q7a1"> Trouxeram-me um ramalhete de flores <b>fragrantes</b>.<br>
+    <input id="q7altb" type="radio" name="q7" value="q7a2"> A justiça <b>infligiu</b> a pena merecida aos desordeiros.<br>
+    <input id="q7altc" type="radio" name="q7" value="q7a3"> Promoveram uma festa <b>beneficiente</b> para a creche.<br>
+    <input id="q7altd" type="radio" name="q7" value="q7a4"> Devemos ser fiéis ao <b>cumprimento</b> do dever.<br>
+    <input id="q7alte" type="radio" name="q7" value="q7a5"> A <b>cessão</b> de terras compete ao Estado.<br><br><br>
+
+    </p>
+
+
+  <!-- Questão 8 -->
+
+    <br>
+    <p align="left">
+    <i>8. Marque a única alternativa em que há <font style="text-decoration: underline">erro</font> quanto ao emprego do artigo:</i><br><br>
+    <input id="q8alta" type="radio" name="q8" value="q8a1"> Nem todas as opiniões são valiosas.<br>
+    <input id="q8altb" type="radio" name="q8" value="q8a2"> Disse que conheceu o homem mais lindo do mundo.<br>
+    <input id="q8altc" type="radio" name="q8" value="q8a3"> Leu todas as obras de Machado de Assis.<br>
+    <input id="q8altd" type="radio" name="q8" value="q8a4"> Andou por toda as ruas de Portugal.<br>
+    <input id="q8alte" type="radio" name="q8" value="q8a5"> Todas as alternativas estão corretas.<br><br><br>
+
+    </p>
+
+
+  <!-- Questão 9 -->
+
+    <br>
+    <p align="left">
+    <i>9. (TCE-RJ) Todos os verbos apresentam uma irregularidade no futuro do subjuntivo em:</i><br><br>
+    <input id="q9alta" type="radio" name="q9" value="q9a1"> pôr – ver – rir<br>
+    <input id="q9altb" type="radio" name="q9" value="q9a2"> dar – saber – ouvir<br>
+    <input id="q9altc" type="radio" name="q9" value="q9a3"> dizer – equivaler – medir<br>
+    <input id="q9altd" type="radio" name="q9" value="q9a4"> fazer – dispor – vir<br>
+    <input id="q9alte" type="radio" name="q9" value="q9a5"> incendiar – caber – intervir<br><br><br>
+
+    </p>
+
+
+  <!-- Questão 10 -->
+
+    <br>
+    <p align="left">
+    <i>10. (Marília) Assinale a alternativa que contém uma coordenativa conclusiva:</i><br><br>
+    <input id="q10alta" type="radio" name="q10" value="q10a1"> Sérgio foi bom filho; logo será um bom pai.<br>
+    <input id="q10altb" type="radio" name="q10" value="q10a2"> Os meninos ora brigavam, ora brincavam.<br>
+    <input id="q10altc" type="radio" name="q10" value="q10a3"> Jaime trabalha depressa, contudo produz pouco.<br>
+    <input id="q10altd" type="radio" name="q10" value="q10a4"> Os cães mordem, não por maldade, mas por precisarem viver.<br>
+    <input id="q10alte" type="radio" name="q10" value="q10a5"> Adão comeu a maçã, e nossos dentes até hoje doem.<br><br><br>
+
+    </p>
+
+
+  <!-- Questão 11 -->
+
+    <br>
+    <p align="left">
+    <i>11. (IBFC – 2013-Adaptada)<br><br>
+  <b>______ muitas pessoas no bar quando cheguei, mas não ______ mesas para
+  todos.</b><br><br>
+  Assinale abaixo a alternativa que preenche corretamente as lacunas.</i><br><br>
+    <input id="q11alta" type="radio" name="q11" value="q11a1"> Tinha/existiam.<br>
+    <input id="q11altb" type="radio" name="q11" value="q11a2"> Tinham/existia.<br>
+    <input id="q11altc" type="radio" name="q11" value="q11a3"> Tinha/existia.<br>
+    <input id="q11altd" type="radio" name="q11" value="q11a4"> Tinham/existiam.<br><br><br>
+
+    </p>
+
+
+  <!-- Questão 12 -->
+
+    <br>
+    <p align="left">
+    <i>12. (UFRJ) Assinale a frase em que o se é pronome apassivador:</i><br><br>
+    <input id="q12alta" type="radio" name="q12" value="q12a1"> Não se atende a reclamações posteriores.<br>
+    <input id="q12altb" type="radio" name="q12" value="q12a2"> Sabes se o resultado já foi afixado?<br>
+    <input id="q12altc" type="radio" name="q12" value="q12a3"> Só irei ao teatro se fores comigo.<br>
+    <input id="q12altd" type="radio" name="q12" value="q12a4"> Registraram-se os acidentes mais importantes.<br>
+    <input id="q12alte" type="radio" name="q12" value="q12a5"> Todos se retiraram a tempo.<br><br><br>
+
+    </p>
+
+
+  <!-- Questão 13 -->
+
+    <br>
+    <p align="left">
+    <i>13. (Vunesp - 2012 - Adaptada) Considere o texto a seguir.<br><br>
+  Até muito recentemente, ainda _______ muitos pontos de vista sobre o tema do aquecimento global. Mesmo nos dias atuais, ainda _______ pesquisadores que não chegaram à conclusão de que a emissão de gases é a principal responsável pela elevação das temperaturas e nem têm certeza de que o homem seja o maior responsável por essa emissão.<br>
+  Assinale a alternativa que preenche, correta e respectivamente, as lacunas do texto.</i><br><br>
+    <input id="q13alta" type="radio" name="q13" value="q13a1"> tinha... existe...<br>
+    <input id="q13altb" type="radio" name="q13" value="q13a2"> tinha... existem...<br>
+    <input id="q13altc" type="radio" name="q13" value="q13a3"> tinham... existem...<br>
+    <input id="q13altd" type="radio" name="q13" value="q13a4"> tinham... existe...<br><br><br>
+
+    </p>
+
+
+  <!-- Questão 14 -->
+
+    <br>
+    <p align="left">
+    <i>14. (Fundep) Considerando o acento tônico e a classificação quanto ao número de sílabas, assinale a alternativa CORRETA:</i><br><br>
+    <input id="q14alta" type="radio" name="q14" value="q14a1"> Psiquiatra - Paroxítona - Quatro sílabas.<br>
+    <input id="q14altb" type="radio" name="q14" value="q14a2"> Noticiário - Proparoxítona - Seis sílabas.<br>
+    <input id="q14altc" type="radio" name="q14" value="q14a3"> Absoluto - Paroxítona - Cinco sílabas.<br>
+    <input id="q14altd" type="radio" name="q14" value="q14a4"> Ódio - Oxítona - Duas sílabas.<br><br><br>
+
+    </p>
+
+
+  <!-- Questão 15 -->
+
+    <br>
+    <p align="left">
+    <i>15. (Fuvest – SP) Entre as mensagens abaixo, a única que está de acordo com a norma escrita culta é:</i><br><br>
+    <input id="q15alta" type="radio" name="q15" value="q15a1"> Confira as receitas incríveis preparadas para você. Clica aqui!<br>
+    <input id="q15altb" type="radio" name="q15" value="q15a2"> Mostra que você tem bom coração. Contribua para a campanha do agasalho!<br>
+    <input id="q15altc" type="radio" name="q15" value="q15a3"> Cura-te a ti mesmo e seja feliz!<br>
+    <input id="q15altd" type="radio" name="q15" value="q15a4"> Não subestime o consumidor. Venda produtos de boa procedência.<br>
+    <input id="q15alte" type="radio" name="q15" value="q15a5"> Em caso de acidente, não siga viagem. Pede o apoio de um policial.<br><br><br>
+
+    </p>
+
+
+  <!-- Questão 16 -->
+
+    <br>
+    <p align="left">
+    <i>16. (Unemat - MT) Considere as orações:<br><br>
+  “Não faça pré-julgamento dos fatos. Analise-os”.<br><br>
+  Em que alternativa seus verbos estão corretamente flexionados na 2ª pessoa do singular?</i><br><br>
+    <input id="q16alta" type="radio" name="q16" value="q16a1"> Não faz pré-julgamento dos fatos. Analise-os.<br>
+    <input id="q16altb" type="radio" name="q16" value="q16a2"> Não faças pré-julgamento dos fatos. Analisa-os.<br>
+    <input id="q16altc" type="radio" name="q16" value="q16a3"> Não fazes pré-julgamento dos fatos. Analisa-os.<br>
+    <input id="q16altd" type="radio" name="q16" value="q16a4"> Não façais pré-julgamento dos fatos. Analisai-os.<br>
+    <input id="q16alte" type="radio" name="q16" value="q16a5"> Não façam pré-julgamento dos fatos. Analisem-nos.<br><br><br>
+
+    </p>
+
+
+  <!-- Questão 17 -->
+
+    <br>
+    <p align="left">
+    <i>17. (UFF-RJ) Assinale a série em que estão devidamente classificadas as formas verbais em destaque:<br>
+      “Ao <b>chegar</b> da fazenda, espero que já <b>tenha terminado</b> a festa.”</i><br><br>
+    <input id="q17alta" type="radio" name="q17" value="q17a1"> futuro do subjuntivo, pretérito perfeito do indicativo.<br>
+    <input id="q17altb" type="radio" name="q17" value="q17a2"> infinitivo, presente do subjuntivo.<br>
+    <input id="q17altc" type="radio" name="q17" value="q17a3"> futuro do subjuntivo, presente do subjuntivo.<br>
+    <input id="q17altd" type="radio" name="q17" value="q17a4"> infinitivo, pretérito imperfeito do subjuntivo.<br>
+    <input id="q17alte" type="radio" name="q17" value="q17a5"> infinitivo, pretérito perfeito do subjuntivo.<br><br><br>
+
+    </p>
+
+
+  <!-- Questão 18 -->
+
+    <br>
+    <p align="left">
+    <i>18. (Fundação Carlos Chagas) Transpondo para a voz passiva a oração “O faro dos cães guiava os caçadores”, obtém-se a forma verbal:</i><br><br>
+    <input id="q18alta" type="radio" name="q18" value="q18a1"> guiava-se.<br>
+    <input id="q18altb" type="radio" name="q18" value="q18a2"> ia guiando.<br>
+    <input id="q18altc" type="radio" name="q18" value="q18a3"> guiavam.<br>
+    <input id="q18altd" type="radio" name="q18" value="q18a4"> eram guiados.<br>
+    <input id="q18alte" type="radio" name="q18" value="q18a5"> foram guiados.<br><br><br>
+
+    </p>
+
+
+  <!-- Questão 19 -->
+
+    <br>
+    <p align="left">
+    <i>19. (Santa Casa) Transpondo para a voz ativa a frase:<br>
+  "Os ingressos haviam sido vendidos com antecedência", obtém-se a forma
+  verbal:</i><br><br>
+    <input id="q19alta" type="radio" name="q19" value="q19a1"> venderam.<br>
+    <input id="q19altb" type="radio" name="q19" value="q19a2"> vendeu-se.<br>
+    <input id="q19altc" type="radio" name="q19" value="q19a3"> venderam-se.<br>
+    <input id="q19altd" type="radio" name="q19" value="q19a4"> haviam vendido.<br>
+    <input id="q19alte" type="radio" name="q19" value="q19a5"> havia vendido.<br><br><br>
+
+    </p>
+
+
+  <!-- Questão 20 -->
+
+    <br><br>
+    <p align="left">
+    <i>20. (UE PONTA GROSSA-PR) Nesse fragmento poético: "Cantando espalharei porto da parte / Se a tanto me ajudar o engenho e arte", encontram-se, respectivamente, formas verbais nominais:</i><br><br>
+    <input id="q20alta" type="radio" name="q20" value="q20a1"> participial e infinitiva.<br>
+    <input id="q20altb" type="radio" name="q20" value="q20a2"> gerundial e infinitiva.<br>
+    <input id="q20altc" type="radio" name="q20" value="q20a3"> infinitiva e participial.<br>
+    <input id="q20altd" type="radio" name="q20" value="q20a4"> infinitiva e gerundial.<br>
+    <input id="q20alte" type="radio" name="q20" value="q20a5"> gerundial e participial.<br><br><br>
+
+    </p>
+
+    <button id="finish" type="submit" >Finalizar</button>
+  </fieldset>
+</form>
+</center>
+   <footer class="rodape" style="background-image: url(images/footerbackground.png)">
+      <table align="center" style="border-collapse: separate !important">
+        <ul>
+          <td>
+            <li class="miniMenu"><a href="menu_gramatica.php">Gramática</a></li>
+          </td>
+          <td>
+            <li class="miniMenu"><a href="menu_atualidades.php">Atualidades</a></li>
+          </td>
+          <td>
+            <li class="miniMenu"><a href="menu_redacao.php">Redação</a></li>
+          </td>
+        </ul>
+        </table>
+        <table class="nathalia">
+        <td  rowspan="2" align="center">
+          <a href="index2.php"><img src="images/Logo.png" width="400px"></a>
+        </td>
+        <td width="800px"></td>
+        <td>
+          <p>Para entrar em contato conosco:</p>
+          <p align="center" style="font-weight: bold;">excuteejs@gmail.com
+            <hr id="linha">
+          </p>
+        </td>
+      </table>
+</footer>
+</body>
+</html>
